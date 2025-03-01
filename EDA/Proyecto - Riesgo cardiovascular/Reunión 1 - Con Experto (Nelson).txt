@@ -1,0 +1,86 @@
+¿Cuál de los siguientes factores (masa corporal, edad, género, enfermedad renal crónica o tensión arterial) es el predictor más significativo del riesgo cardiovascular?
+
+1. Cómo se comportan?
+2. Cómo se relacionan?
+3. Es posible predecir?
+
+Taller 2. Análisis Univariado
+Taller 3. Análisis Bivariado 
+
+
+Actividades:
+	1. Organización de datos crudos.
+	2. Revisión de artículos científicos sobre análisis exploratorio.
+	3. Limpieza de datos: analizar cuáles columnas podemos obviar (o llenar con datos por defecto).
+	4. Separación de variables en categóricas y numéricas.
+	5. Análisis de distribución de variables numéricas: histograma, outliers, probability plot.
+	6. Diccionario de datos.
+	7. Análisis de distribución de cada variable respecto a la variable objetivo.
+	8. Obtener matriz de correlación de las variables.
+
+
+	XX. Entrenar modelos.
+
+
+-Cómo tratar una variable calculada?
+
+
+
+According to the National Heart, Lung and Blood Institute in Framingham (USA), the most important factors in the development of cardiovascular disease in humans are obesity, sedentary lifestyle and smoking.
+
+
+A Nelson:
+
+1. Existen datos de 2024? (base de datos actualizada)
+2. Por qué se seleccionaron las comunas 13, 14, 15 y 21 de Cali? Distrito de Aguablanca: desplazados. Zona vulnerable: caños - desagües que pasan por las calles, minas de ? (minería), estratos 1 y 2.
+
+
+	Analizar sociodemografía.
+	Alcaldía de Cali: historia de la zona del distrito de Aguablanca.
+
+	Quien coordina: Carlos Holmes Trujillo.
+	Clasifican a los pacientes: quiénes tienen riesgo, los ingresan en un listado. 2017 - 2023. Van aumentando variables: antropométricas, mediciones de salud, cómo son los pacientes de perceptivos ante las recomendaciones del médico.
+	
+	Como se van aumentando las variables, hay que analizar cuáles variables son las más significativas. Y en qué años se tomaron.
+
+	Fase de exploración puede tomar hasta 4 meses.
+		Imputación de datos.
+			tendremos datos de 2024?
+			cómo realizan la recolección de datos?
+				podemos tener datos repetidos de pacientes
+
+				cuáles son los factores más influyentes de esa población que una persona pase de riesgo moderado a alto?
+					60% está en riesgo alto
+					identificación no se puede publicar: confidencialidad
+					¿cuántos de estos pacientes aparece en los datos?
+					¿cuál de los pacientes es el que más visita la ESE? -> Anonimizar!!!
+					No se puede identificar pacientes: cuidado con poner en evidencia.
+					Hacer el estudio por paciente.
+
+	Hallazgos de trabajos previos:
+			Otros estudiantes:
+				variables confusoras y peso relevante en el modelo.
+					Framingham -> experto en epidemiología: determinó cuáles son las variables que inciden en el riesgo cardiovascular. Determinó el peso de cada variable: presión, medidas de sangre.
+					Framingham -> es un estándar internacional que le puede servir a a países desarrollo pero no a los en vía de desarrollo.
+
+					Se encontró que una variable confusora es:
+						Diabetes melitus -> es una variable que incide, para Framigham
+						Presión arterial alta -> les hacen más vigilancia. Inversamente proporcional -> 
+						Etnia? -> Negros vs Indígenas: no hay un cambio significativo, no es un 
+							Puede compartir el resultado, pero no el proceso: para evitar el sesgo.
+								
+								El trabajo de grado quedó en la universidad (como propiedad intelectual privada).
+								Se va a realizar un artículo (se entregó en 2024)
+
+							Publicar sin mencionar la población. 
+
+
+
+			->mujeres tienden a tener sobrepeso: 80% > 50 años 
+
+
+
+
+3. Podríamos extraer otros datos, como si fuman o no? Estilo de vida? (sedentario) Tendrá que ver con la presión arterial? Obesidad?
+
+R./ Se están añadiendo año tras año nuevas variables.
